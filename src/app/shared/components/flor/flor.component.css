@@ -1,0 +1,15 @@
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(25deg); /* Aquí defines el ángulo al que quieres que gire */
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animacion-girar {
+  animation: girar 2s linear infinite; /* Duración de la animación: 2 segundos, linear: movimiento uniforme, infinite: se repite infinitamente */
+}
