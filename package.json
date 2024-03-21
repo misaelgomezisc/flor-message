@@ -7,7 +7,7 @@
     "build": "ng build",
     "delete:docs": "del docs",
     "build:href": "ng build --base-href ./",
-    "copy:dist": "copyfiles dist/gifs-app/* ./docs -f",
+    "copy:dist": "copyfiles dist/flor-yellow/* ./docs -f",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
